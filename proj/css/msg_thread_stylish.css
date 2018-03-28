@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+div.breaking {
+  hyphens: auto;
+}
+#thread-list {
+    list-style:none; 
+    margin:0; 
+    padding:0; 
+    width:490px;
+	margin-bottom:auto;
+    border:1px solid #ccc;
+}
+
+#thread-list li {float:left; clear:left; max-width:490px; width:100%; margin-bottom:10px;}
+.thread-item-received {padding:0 0 0 0;}
+.thread-item-sent {padding:0 0 0 0;}
+
+.thread-item-wrapper {float:left; position:relative;max-width:490px;word-wrap:break-word; overflow:hidden;}
+.thread-item-sent .thread-item-wrapper {float:right;}
+
+.thread-item-clear {clear:both;}
+
+.thread-item-horiz {height:20px; width:100%; position:absolute; }
+
+.thread-item-corner {
+    position:absolute;
+    background-repeat:no-repeat;
+    background-image:url(icons/received.png);
+    width:20px;
+    height:20px;
+}
+.thread-item-sent .thread-item-corner {
+    background-image:url(icons/sent.png);
+}
+
+.thread-item-middle {
+    background-image:url(icons/left-received.png);
+    background-repeat:repeat-y;    
+}
+.thread-item-sent .thread-item-middle {
+    background-image:url(icons/left-received.png);
+}
+
+.thread-item-content-wrapper {
+    display:block;
+    background-image:url(icons/right-received.png);
+    background-repeat:repeat-y;
+    background-position:right top;
+}
+
+.thread-item-content {padding:0 20px;}
+
+.thread-item-top {
+    background-image:url(icons/top-received.png);
+    background-repeat:repeat-x;
+}
+
+.thread-item-topleft {top:0; left:0; background-position:left top;}
+.thread-item-topright {top:0; right:0; background-position:right top;}
+
+.thread-item-bottom {
+    background-image:url(icons/bottom-received.png);
+    background-repeat:repeat-x;
+}
+
+.thread-item-bottomleft {bottom:0; left:0; background-position:left bottom;}
+.thread-item-bottomright {bottom:0; right:0; background-position:right bottom; position:absolute;}
+
+.thread-item-label {
+    font-weight:bold;
+    position:relative;
+	width:auto;
+    left:20px;
+    top:10px;
+}
+.thread-item-label a{
+	float:left;
+	text-decoration:none;
+	color:#900;
+	}
+.thread-item-date {color:#999; font-size:0.9em;}
+.thread-item-received .thread-item-date {clear:right; float:left; margin:20px 0 0 15px;}
+.thread-item-sent .thread-item-date {/*clear:left; float:right;*/ margin:0px 4px 0 15px; } /* <--- this line --- */
+
+.thread-item-content-top {clear:both; height:10px; }
+
+.thread-item-msg {background-color:#F1F1F1;}
+.thread-item-msg p {margin:0; background-color:#F1F1F1;
+font-family: 'Indie Flower', cursive;
+font-size:18px;text-shadow: 4px 4px 4px #aaa;
+letter-spacing:1.5px;
+}
+

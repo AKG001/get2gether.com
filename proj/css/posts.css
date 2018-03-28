@@ -1,0 +1,83 @@
+#form_share
+{
+width:400px;
+height:200px;
+}
+#feeds
+{	
+position:absolute;
+margin-top:2%;
+float:left;
+margin-left:2%;
+width:50%;
+margin-bottom:2%;
+}
+
+
+#posts
+{
+	position:relative; 
+	box-shadow:1.5px 2px 1.5px 2px #A0A0A4;
+	width:100%; 
+	border:1px solid #FFA;
+	padding-top:2%;
+	padding-bottom:2%;
+	padding-left:1%;
+	max-width:100%;
+	margin-bottom:2%;
+}
+
+#posts fieldset
+{
+	position:relative; 
+	box-shadow:1.5px 2px 1.5px 2px #A0A0A4;
+	width:500px;
+	height:200px; 
+	border:1px solid #FFA;
+	padding-top:1%;
+	padding-left:1%;
+	max-width:100%;
+	margin-bottom:1%;
+}
+
+#pphoto img
+{
+	position :relative;
+	left:1%;
+	float:left;
+	 width=5%;
+	 border-radius:10%;
+}
+
+#content
+{
+	position:relative;
+	top:21%;
+	left:2%;
+	
+}
+
+#descrip
+{
+	position:relative;
+	float:left;
+	left:15%;
+	margin-top:2%;
+	margin-bottom:3%;
+	
+}
+
+#attach
+{
+	border:1px solid #F00;
+	margin-bottom:2%;
+	margin-top:5%;
+	margin-left:2%;
+	
+}
+#attach img
+{
+	width:20%;
+	border-radius:3%;
+
+}

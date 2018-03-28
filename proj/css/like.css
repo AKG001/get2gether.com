@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* LIKE CSS */
+*{transition: all 0.3s linear;}
+
+
+.hidden{
+  font-size: 0;
+}
+
+
+.like{
+  font-family: 'Open Sans';
+  display:inline-block;
+  margin-top:2%;
+  /*margin-bottom:1%;
+  margin-left:3%;*/
+}
+
+.like-toggle{
+  outline:none;
+  box-shadow:none;
+  border: none;
+  width: 40px;
+  height: 30px;
+  font-size: 1.3em;
+  border-radius: 100px;
+}
+
+.like-active.basic{
+  background: #7CC576;
+  color: white;
+}
+
+.like-toggle.basic2{
+  border: none;
+  width: 30px;
+  height: 30px;
+  font-size: 1.3em;
+  border-radius: 100px;
+  background: #F26C4F;
+  color: #fff;
+}
+
+.like-active.basic2{
+  background: #F06EA9;
+}
+
+.like-toggle.basic2:not(.like-active):hover{
+  background: #438CCA;
+  width: 60px;
+}
+/* END OF LIKE CSS Document */
+
+
+
+
+/* HORIZONTAL MENU FOR LIKE, COMMENT AND VIEWS */
+
+
+.horizontal-list ul 
+{
+	list-style-type: none;
+	margin: 0;
+	padding-left: 0;
+}
+.horizontal-list a 
+{
+	text-decoration: none;
+	font-size: 15px;
+}
+.horizontal-list a:hover 
+{
+		text-decoration: underline;
+}
+.horizontal-list 
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.horizontal-list li 
+{
+		float: left;
+}
+						
+.profile-options a 
+{
+display: block;					
+line-height: 20%;
+text-align: center;
+-webkit-transition: background .3s;
+transition: background .3s;
+}
+.profile-options a:hover 
+{
+text-decoration: none;								
+background: #50597b;
+}
+.profile-options .comments 
+{
+padding-left:20%;
+padding-top:2%;
+padding-bottom:2%;
+border-top: 4px solid #fcb150;
+}
+.profile-options .views 
+{
+padding-left:10%;
+padding-top:2%;
+padding-bottom:1%;
+background: #DDD;
+border-top: 4px solid #11a8ab;
+}
+.profile-options .likes 
+{
+padding-left:10%;								
+padding-top:1%;
+padding-bottom:1%;
+background: #DDD;
+border-top: 4px solid #e64c65;
+}

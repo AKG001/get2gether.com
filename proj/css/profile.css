@@ -1,0 +1,408 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+margin:0px;
+background-color:#CBD3F8;	
+}
+
+.profile_left
+{position:relative;
+background-color:#FFF;
+top:50px;
+margin-bottom:20px;
+	float:left;
+	padding:20px;
+	border-top:4px solid #1A6640;
+	width:160px;
+	height:auto;
+	display:block;
+	box-shadow:inset #FFF;
+}
+#wrapper
+{
+position:relative;
+margin-left:10px;
+	width:200px;
+	margin-bottom:30px;
+}
+
+.frnd
+{
+background-color:#FFF;
+margin-top:75px;
+	float:left;
+	padding-top:20px;
+	border-top:4px solid #1A6640;
+	width:200px;
+	height:auto;
+	display:block;
+	box-shadow:inset #FFF;
+	
+	
+}
+
+.timeline
+
+{
+left:5%;
+float:right;
+height:100%;
+width:40%;
+}
+
+
+#orange_small{
+float:right;}
+#orange_small a
+{
+float:right;
+font-size:14px;
+color:#666;
+	
+}
+.profile_photo 
+{float:left;
+height:160px;
+width:160px;
+	
+}
+.see_all_frnd:hover{color:#1A6640;background-color:#E0E0E0;
+}
+.see_all_frnd
+{position:relative;
+
+width:180px;
+padding:10px;
+height:12px;
+background-color:#F3F3F3;
+cursor:pointer;
+font-size:10px;
+text-align:center;
+color:#999;	
+}
+.profile_photo img
+{height:100%;
+width:100%;
+	
+}
+.profile_snd_rqst
+{cursor:pointer;
+float:left;
+position:relative;
+opacity:.95;
+width:160px;
+text-align:center;
+height:20px;
+color:#FFF;
+font-size:12px;
+background-color:#F90;	
+font-family: 'Open Sans','arial';
+    line-height: 20px;
+    font-weight: 400;
+			display:inline-block;
+padding-top:1px;
+padding-bottom:1px;
+
+}
+.snd_msg
+{	display:inline-block;
+	cursor:pointer;
+float:left;
+position:relative;
+
+opacity:.95;
+width:160px;
+text-align:center;
+height:20px;
+color:#FFF;
+font-size:12px;
+background-color:#6C6C6C;	
+font-family: 'Open Sans','arial';
+    line-height: 20px;
+    font-weight: 400;
+		
+padding-top:1px;
+padding-bottom:1px;
+
+	}
+.fa-check-circle-o
+{
+color:#FFF;
+background-color:#1A6640;	
+}
+.snd_msg:hover,
+.profile_snd_rqst:hover,
+.profile_photo_update:hover{opacity:1;}
+.profile_photo_update
+{cursor:pointer;
+float:left;
+position:relative;
+
+opacity:.95;
+	font-family: 'Open Sans','arial';
+    line-height: 20px;
+    font-weight: 400;
+	display:inline-block;
+padding-top:1px;
+padding-bottom:1px;
+width:160px;
+text-align:center;
+height:20px;
+color:#FFF;
+font-size:12px;
+background-color:#1A6640;	
+}
+.profile_name{max-width:160px;
+
+	}
+.profile_name a
+{	
+	position:relative;
+	text-decoration:none;
+	color:#1A6640;
+     
+-webkit-hyphens: auto;
+   -moz-hyphens: auto;
+        hyphens: auto;font-size:30px;
+	}
+.fa-bookmark{color:#1A6640;}
+.profile_about_me{
+	}
+.profile_about_me span
+{cursor:pointer;
+color:#1A6640;
+text-align:center;
+	-ms-word-break: break-all;
+     word-break: break-all;
+
+     
+-webkit-hyphens: auto;
+   -moz-hyphens: auto;
+        hyphens: auto;
+}
+.profile_about_me_content span {
+	width:160px;
+	display:inline-block;
+	text-align:left;
+	color:#333;
+	font-weight:75;
+	font-size:14px;
+	font-family:'Open Sans','arial';
+border-top:groove 1px  #999;
+	border-bottom:groove 1px #999;
+	
+	}
+.profile_status{
+	border-bottom:groove 1px #999;
+	
+	}	
+	.profile_about_me_content:hover,
+	.profile_status:hover{
+		background-color:#F2F2F2;
+		}
+.profile_status span
+{
+	
+text-align:left;
+font-size:18px;	
+color:#333;
+}
+#green_small
+{
+top:50%;
+	margin:2px;
+float:right;
+	}
+#green_small a
+{top:2px;
+
+cursor:pointer;
+padding:3px 3px 2px 2px;
+font-size:10px;
+background-color:#1A6640;
+color:#FFF;
+}
+.profile_status a
+{
+	top:2px;
+
+	float:right;
+	text-align:right;
+font-size:10px;	
+}
+.fa-users{
+	float:left;
+	color:#1A6640;
+	}
+	.Friends
+	{padding-left:20px;padding-right:20px;}
+.list_friends a
+{display:inline-block;
+	max-height:50px;
+	max-width:50px;}
+
+.Fr_title
+{
+float:left;
+font-size:24px;
+color:#1A6640;	
+padding:4px;
+padding-left:25px;
+}
+
+
+.outer
+{
+	margin:1.5px;
+height:50px;
+width:50px;	
+float:left
+}.education ul li:hover,
+.outer:hover{background-color:#F0F0F0;}
+.outer img
+{
+	padding:10%;
+	border-radius:50%;
+height:80%;
+width:80%;	
+	
+	
+}
+.fa-user,fa-trophy,.fa-dot-circle-o
+{
+flaot:left;
+color:#1A6440;	
+}
+.title_About
+{
+float:left;
+color:#1A6440;
+font-family:Verdana, Geneva, sans-serif;
+font-size:24px;	
+}
+.changeable
+{border-top:4px solid #1A6640;
+	float:left;
+padding-top:20px;
+padding-left:20px;
+padding-right:20px;
+margin-top:50px;	
+	width:40%;
+	min-width:300px;
+	margin-left:30px;
+	heigth:auto;
+	background-color:#FFF;
+}
+
+.load_inner table
+{
+padding-top:20px;
+display:inline-block;
+height:auto;
+width:auto;	
+}
+.load_inner table th
+{width:12%;
+font-size: 13px;
+    font-family: 'Open Sans','arial';
+    line-height: 23px;
+	font-weight:700;
+	    color: #333;   
+    padding-right: 15px;
+    padding-left: 15px;
+		    box-sizing: border-box;
+min-width:76px;
+text-align:left;	
+}
+.fa-pencil
+{
+color:#FFF;
+background-color:#F90;
+}
+.Edit_pro
+{float:right;
+cursor:pointer;
+top: 10px;
+background-color:#F90;
+color:#FFF;
+    right: 20px;
+	position:relative;
+	    box-sizing: border-box;
+		    font-size: 13px;
+    padding: 5px 15px 5px 15px;
+	border-radius:2px;
+		font-family: 'Open Sans','arial';
+    line-height: 23px;
+    font-weight: 400;
+		
+	
+}
+.load_inner table td
+{width:12%;
+
+    padding-right: 15px;
+    padding-left: 15px;
+	font-size: 13px;
+    font-family: 'Open Sans','arial';
+    line-height: 23px;
+    font-weight: 400;
+	color: #333;
+	box-sizing: border-box;
+min-width:76px;
+text-align:left;	
+}
+.load_inner table td a{
+background-origin: padding-box;
+background-size: auto;
+box-sizing: border-box;
+color: rgb(31, 174, 102);
+text-decoration:none;
+}
+.education
+{
+	float:left;
+
+display:inline-block;	
+	
+}
+
+.education ul
+{	padding-top:20px;
+list-style:circle;	
+}
+.education ul li 
+{max-width:300px;
+box-sizing: border-box;
+color: rgb(51, 51, 51);
+display: block;
+font-family: 'Open Sans', arial;
+font-size: 13px;
+font-weight: normal;
+height: 92px;
+line-height: 23px;
+margin-left: 26px;
+padding-right: 15px;
+text-align: left;
+text-transform: none;
+}
+.edu_year
+{
+box-sizing: border-box;
+color: rgb(147, 155, 162);
+display: inline;
+font-family: 'Open Sans', arial;
+font-size: 11.3999996185303px;
+font-style: italic;
+font-weight: normal;
+height: auto;
+line-height: 23px;
+text-align: left;
+text-transform: capitalize;	
+}
+.education ul li a 
+{
+font-weight:bold;
+cursor:pointer;
+color:#1A6640;
+
+}

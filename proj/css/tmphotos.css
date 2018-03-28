@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#navp
+{
+  	font-family: 'Open Sans', sans-serif;
+  	font-size: 16px;
+  	color:#070;
+  	background:#6C6;
+  	padding:2%;
+	margin-bottom:2%;
+	cursor:pointer;
+
+}
+
+#yu
+{
+	padding:2% 2% 2% 2%;
+	margin:1% 5% 0;
+}
+#ypp
+{
+	padding:2% 2% 2% 2%;
+}
+
+#yu:hover,#ypp:hover
+{
+	color:#A00;
+	background:#080;
+}
+
+#ypp
+{
+}
+
+
+#uplpts
+{
+	background: #C0DCC0;	
+	width:40%;
+	height:60%;
+	overflow:auto;
+	padding:.5%;
+	border:1px solid #000;
+}
+
+#uplpts img
+{
+	height:30%;
+	width:25%;
+	border-radius:3%;
+	cursor:pointer;
+}
+
+#uplpts img:hover
+{
+	box-shadow:1.5px 1.5px #00BB00;
+}
+
+#yourup
+{
+	display:block;
+}
+
+#yourdp
+{
+	display:none;
+	position:relative;
+	float:left;
+}

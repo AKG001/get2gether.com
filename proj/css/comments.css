@@ -1,0 +1,124 @@
+@charset "utf-8";
+
+.comments{
+  width:100%;
+  overflow:hidden;
+  background:#E6E7E8;
+}
+
+ol
+{
+	margin-top:-.5%;
+	margin-left:-.5%;
+	margin-bottom:1%;
+}
+ol, ol li{
+  width:100%;
+  display:block;
+}
+
+ol li{
+  margin-left:-5%;
+}
+
+ol li:nth-of-type(odd){
+  background:#FFFFFF;
+}
+
+.author img{
+  float:left;
+  clear:both;
+}
+
+cite{
+	position:relative;
+	float:left;
+	top:6px;
+	left:6px;
+ 	width:620px;
+  	font-size:14px;
+  	color:#2BB673;
+  	font-style:normal;
+	cursor:pointer;
+}
+.author img{
+  width:5%;
+  border-bottom-left-radius:50%;
+  border-bottom-right-radius:0%;
+  border-top-left-radius:50%;
+  border-top-right-radius:50%;
+  cursor:pointer;
+}
+
+.comments p{
+  float:left;
+  left:1%;
+  width:65%;
+  position:relative;
+  background:#E6E7E8;
+  margin-top:10px;
+  padding:0.5%;
+  padding-left:1%;
+  color:#cccc;
+}
+
+li p:before{
+  content:"";
+  position:absolute;
+  width: 0; 
+}
+
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+}
+
+li:nth-of-type(even) p{
+  background:#FFFFFF;
+  color:#808285;
+}
+
+li:nth-of-type(even) p:before{
+  border-right:1px solid #FFFFFF;
+}
+
+
+/* CSS Document */
+
+
+
+
+
+.comment_text
+{
+	position:relative;
+	float:right;
+	left:-22%;
+	overflow:hidden;
+  	padding:1%;
+  	width:70%;
+  	font-family:"Times New Roman", Times, serif;
+  	font-size:12px;
+  	display:block;
+  	border-radius:2.5%;
+  	border:1px solid #556677;
+  	resize:none;
+
+	
+}

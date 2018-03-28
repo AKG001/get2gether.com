@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+#sse1
+{
+    /*You can decorate the menu's container, such as adding background images through this block*/
+    background-color:#033;
+	float:left;
+	position:fixed;
+	width:100%;
+	top:0%;
+	margin-top:0%;
+    height: 40px;
+    padding: .25%;
+    border-radius: 3%; z-index: 3000;
+
+    box-sizing: content-box;
+}
+.site{
+	float:left;
+	padding:5px;
+	left:20px;
+	}.fa-bug
+	{
+	color:#FFF;
+	}
+	.site a
+	{line-height:23px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:700;
+	vertical-align:middle;
+	
+	color:#FFF;
+	text-decoration:none;
+	letter-spacing:1px;
+		
+		
+		}
+#sses1
+{ z-index: 3000;
+
+    margin:0 auto;/*This will make the menu center-aligned. Removing this line will make the menu align left.*/
+}
+#sses1 ul 
+{ 
+    position: relative;
+    left:25%;
+	list-style-type: none;
+    float:left;
+    padding:0;margin:0; z-index: 3000;
+
+    /*border-bottom:solid 1px #6C0000;*/
+}
+#sses1 li
+{
+    float:left;
+    list-style-type: none;
+    padding:0;margin:0;background-image:none; z-index: 3000;
+}
+#sses1 li a
+{
+    box-sizing: content-box;
+    height:5.5%;
+    padding-top: 12%;
+    margin: 0 15px;/*used to adjust the distance between each menu item. Now the distance is 20+20=40px.*/
+    color: #fff;
+    font: normal 12px arial;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+    display: block;
+    position: relative; z-index: 3000;
+}
+
+
+
+
+/* SEARCH BAR */
+
+.search-text 
+{
+font-size: 14px;
+font: "Open Sans",Segoe,"Segoe UI",Frutiger,"Frutiger Linotype","DejaVu Sans","Helvetica Neue",Arial,Sans-Serif;
+color:#333;
+margin-top:2.5%;
+padding:1.5%;
+border-radius:5%; z-index: 3000;
+}
+.search-submit {
+margin-top:15%;
+padding-top:2%;
+padding-bottom:8%;
+font-size: 14px;
+color: #fff; z-index: 3000;
+background-color: #4d90fe;
+cursor: pointer;
+}
+
+
+
+

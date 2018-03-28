@@ -1,0 +1,116 @@
+body
+{
+	/*background: #222;
+  	color: #eee;*/
+	margin:0px 0px 0px 0px;
+}
+.whole_page
+{
+margin-top:3.8%;
+height:100%;
+width:100%;	
+}
+.myfeeds
+{
+	margin-top:5%;
+	margin-left:25.8%;
+width:60%;
+height:100%;
+z-index:-20;
+}
+#sse1
+{
+    /*You can decorate the menu's container, such as adding background images through this block*/
+    background-color:#033;
+	position:fixed;
+	width:100%;
+	top:0%;
+	margin-top:0%;
+    height: 6%;
+    padding: .25%;
+    border-radius: 3%;
+	 z-index: 2;
+
+    box-sizing: content-box;
+}
+#sses1
+{
+ z-index: 2;
+
+    margin:0 auto;/*This will make the menu center-aligned. Removing this line will make the menu align left.*/
+}
+#sses1 ul 
+{ 
+    position: relative;
+    left:25%;
+	list-style-type: none;
+    float:left;
+    padding:0;margin:0;
+ z-index: 2;
+
+    /*border-bottom:solid 1px #6C0000;*/
+}
+#sses1 li
+{
+    float:left;
+    list-style-type: none;
+    padding:0;margin:0;background-image:none;
+
+ z-index: 2;
+}
+#sses1 li a
+{
+    box-sizing: content-box;
+    height:5.5%;
+    padding-top: 12%;
+    margin: 0 15px;/*used to adjust the distance between each menu item. Now the distance is 20+20=40px.*/
+    color: #fff;
+    font: normal 12px arial;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+    display: block;
+    position: relative;
+    z-index: 2;
+}
+
+#post
+{
+position:absolute; 
+	float:inherit;	
+	 
+	height:10%; 
+	width:45%; 
+	border-bottom-color:#FFF; 
+	border:2px solid #C6F;
+	text-shadow:-0.3px -0.5px #808080;
+}
+
+
+
+
+/* COMMENT CSS */
+
+.comment_text{
+	position:absolute;
+	left:5%;
+	 overflow:hidden;
+  padding:1%;
+  width:70%;
+  font-family:"Times New Roman", Times, serif;
+  font-size:12px;
+  margin-bottom:5%;
+  display:block;
+  border-radius:2.5%;
+  border:1px solid #556677;
+  resize:none;
+}
+
+
+
+#pcp
+{
+	
+}
+
+/* END OF COMMENT CSS */
